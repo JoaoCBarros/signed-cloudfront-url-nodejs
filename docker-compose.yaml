@@ -1,0 +1,11 @@
+version: '3.3'
+
+services:
+  app: 
+    build: .
+    container_name: app
+    command: npm install
+    entrypoint: node server.js
+    tty: true
+    ports:
+      - "3000:3000"

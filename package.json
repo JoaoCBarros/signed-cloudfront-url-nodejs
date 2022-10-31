@@ -1,0 +1,25 @@
+{
+  "name": "signed-cloudfront-url-nodejs",
+  "version": "1.0.0",
+  "description": "## Pre-Requisites",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaoCBarros/signed-cloudfront-url-nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JoaoCBarros/signed-cloudfront-url-nodejs/issues"
+  },
+  "homepage": "https://github.com/JoaoCBarros/signed-cloudfront-url-nodejs#readme",
+  "dependencies": {
+    "@aws-sdk/cloudfront-signer": "^3.200.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "luxon": "^3.1.0"
+  }
+}
