@@ -6,8 +6,8 @@
 2.  Add a CloudFront Public key
 3.  Create a CloudFront key group
 4.  Create a Cloudfront Distribution using:
-  1. Restrict viewer access and Trusted authorization type of Trusted key groups
-  2. Cache policy and origin request policy with a custom Cache policy that allows only the Query string `response-content-disposition`
+    1. Restrict viewer access and Trusted authorization type of Trusted key groups
+    2. Cache policy and origin request policy with a custom Cache policy that allows only the Query string `response-content-disposition`
 
 ## Install
 
@@ -19,8 +19,8 @@ Run `npm run start`
 
 ## Docker
 
-Run `docker-compose up -d`
+Run `docker-compose up`
 
 or
 
-Run `docker compose up -d`
+Run `docker compose up`
