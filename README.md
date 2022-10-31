@@ -2,12 +2,14 @@
 
 ## Pre-Requisites
 
-1.  Create a S3 Bucket in AWS with all public access blocked and an new Legacy access identity (and select `Yes, update the bucket policy`)
-2.  Add a CloudFront Public key
-3.  Create a CloudFront key group
-4.  Create a Cloudfront Distribution using:
-    1. Restrict viewer access and Trusted authorization type of Trusted key groups
-    2. Cache policy and origin request policy with a custom Cache policy that allows only the Query string `response-content-disposition`
+1.  Create a S3 Bucket in AWS with **all public access blocked**
+2.  Add a **CloudFront Public key**
+3.  Create a **CloudFront key group**
+4.  Create a **Cloudfront Distribution** using:
+    1. **Restrict viewer access** and **Trusted authorization** type of **Trusted key groups**
+    2. Create a **custom Cache policy and origin request policy** with a **custom Cache policy** that **allows only the Query string** `response-content-disposition`
+    3. A new Legacy access identity 
+    4. Select `Yes, update the bucket policy`
 
 ## Install
 
