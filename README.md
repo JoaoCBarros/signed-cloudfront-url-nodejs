@@ -1,4 +1,4 @@
-# Generate a Pré-Signed URL to CloudFront + S3 Bucket With Dynamic Filename
+# Generate a Pre-Signed URL to CloudFront + S3 Bucket With Dynamic Filename
 
 ## Pre-Requisites
 
