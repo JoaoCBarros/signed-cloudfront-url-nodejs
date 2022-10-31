@@ -8,7 +8,7 @@
 4.  Create a **Cloudfront Distribution** using:
     1. **Restrict viewer access** and **Trusted authorization** type of **Trusted key groups**
     2. Create a **custom Cache policy and origin request policy** with a **custom Cache policy** that **allows only the Query string** `response-content-disposition`
-    3. A new Legacy access identity 
+    3. A new Legacy access identity (OAI)
     4. Select `Yes, update the bucket policy`
 
 ## Install
