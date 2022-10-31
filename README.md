@@ -2,11 +2,21 @@
 
 ## Pre-Requisites
 
- 1. Create a S3 Bucket in AWS with all public access blocked
- 2. Create a Cloudfront Distribution
+1.  Create a S3 Bucket in AWS with all public access blocked
+2.  Create a Cloudfront Distribution
 
 ## Install
+
 Run `npm install`
 
 ## Start
+
 Run `npm run start`
+
+## Docker
+
+Run `docker-compose up -d`
+
+or
+
+Run `docker compose up -d`
